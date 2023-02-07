@@ -12,7 +12,7 @@ function Banner() {
   const windowWidth = useWindowWidth();
   return (
     <>
-      <div className="container flex flex-col items-center justify-center mx-auto lg:flex-row lg:mt-20 item-center ">
+      <div className="container flex flex-col mx-auto lg:flex-row lg:mt-20">
         <div className="flex flex-col items-center justify-center order-last lg:items-start lg:order-none">
           <h1 className="text-center lg:text-start mt-16 text-3xl lg:text-[40px] lg:leading-[50px] text-white capitalize">
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#C0B7E8] to-[#8176AF]">
@@ -38,16 +38,16 @@ function Banner() {
             <ArrowRightIcon className="hidden lg:block h-[35px] w-[50px] lg:h-[45px] lg:w-[60px] text-[#C0B7E8]" />
           </div>
         </div>
-        <div className="my-auto ">
+        <div className="mx-auto my-auto">
           <Image
             src={HeroImage}
             alt="hero"
-            className="border-[16px] mx-4 max-h-[490px] max-w-[426px] border-[rgba(0,0,0,0.13)] rounded-[100px] rounded-bl-[240px]"
+            className="border-[16px] sm:mx-4 sm:max-h-[490px] sm:max-w-[426px] border-[rgba(0,0,0,0.13)] rounded-[100px] rounded-bl-[240px]"
           />
         </div>
       </div>
 
-      <div className="container mx-auto p-12 mt-20 rounded-full bg-gradient-to-r from-[#211E2E] via-[#3A3456] to-[#211E2E] drop-shadow(0 4px 4px rgb(192, 183, 232, 0.01));">
+      <div className="container px-10 mx-auto p-12 mt-20 rounded-full bg-gradient-to-r from-[#211E2E] via-[#3A3456] to-[#211E2E] drop-shadow(0 4px 4px rgb(192, 183, 232, 0.01));">
         {windowWidth < 768 && (
           <Slider>
             <div className="!flex  space-x-2 mx-4 items-center">

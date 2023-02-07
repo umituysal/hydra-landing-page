@@ -8,7 +8,7 @@ function Process() {
     <div className="container mx-auto ">
       <div className="grid my-16 md:grid-cols-2">
         <div className="">
-          <div className="flex flex-col text-4xl text-center text-white uppercase md:text-start">
+          <div className="flex flex-col text-2xl md:text-[36px] md:leading-[43.88px] text-center text-white uppercase md:text-start">
             <h1 className="font-bold ">how we build</h1>
             <h2 className="font-light">with hydra vr?</h2>{" "}
           </div>
@@ -18,7 +18,7 @@ function Process() {
             alt=""
           />
         </div>
-        <p className="hidden md:block md:text-[16px] text-white font-light leading-[20px]">
+        <p className="hidden md:block md:text-[16px] text-white font-normal leading-[20px]">
           Vitae sapien pellentesque habitant morbi tristique senectus et netus
           et. Feugiat nibh sed pulvinar proin gravida hendrerit lectus. Mi sit
           amet mauris commodo quis imperdiet massa tincidunt nunc. Viverra

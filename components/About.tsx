@@ -7,8 +7,8 @@ function About() {
   return (
     <div className="container mx-auto">
       <div className="grid grid-cols-1 my-16 lg:grid-cols-2">
-        <div className="flex items-center justify-center">
-          <div className="flex flex-col text-4xl text-white uppercase">
+        <div className="flex items-center justify-center lg:justify-start">
+          <div className="flex flex-col text-2xl text-white uppercase md:text-4xl">
             <h1 className="font-bold ">introduction </h1>
             <h2 className="font-light">to hydra vr</h2>{" "}
           </div>
@@ -27,7 +27,7 @@ function About() {
         </p>
       </div>
       <div className="grid grid-cols-1 lg:grid-cols-2 ">
-        <div className="px-6 max-h-[557px] max-w-[524px] mx-auto">
+        <div className="mx-auto px-10 md:px-0 lg:ml-0 lg:mr-auto max-h-[557px] max-w-[524px]">
           <Image
             src={AboutImage}
             alt="About"

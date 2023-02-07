@@ -14,7 +14,7 @@ function Services() {
       {" "}
       <div className="grid my-16 md:grid-cols-2">
         <div className="">
-          <div className="flex flex-col text-4xl text-center text-white uppercase md:text-start">
+          <div className="flex flex-col text-2xl text-center text-white uppercase md:text-4xl md:text-start">
             <h1 className="font-bold ">why build</h1>
             <h2 className="font-light">with hydra?</h2>{" "}
           </div>
@@ -33,13 +33,13 @@ function Services() {
         </p>
       </div>
       <Slider>
-        <div className="!flex !max-w-[320px]  mx-4 flex-col !justify-center !items-center p-8 bg-gradient-to-r from-[#211E2E] via-[#433D60]  to-[#211E2E] rounded-[40px] ">
+        <div className="!flex text-white !max-w-[320px]  mx-4 flex-col !justify-center !items-center p-8 bg-color rounded-[40px] ">
           <Image
             alt=""
             src={SimulationImage}
             className="rounded-full border-[12px] border-[rgba(14,14,14,0.32)] drop-shadow(0 4px 4px rgb(192, 183, 232, 0.01));"
           />
-          <h3 className="pb-3 my-4 text-2xl font-bold uppercase border-b-2 border-slate-400">
+          <h3 className="pb-3 my-4 text-2xl font-bold uppercase border-b-[1px] border-[#C0B7E8]">
             simulation
           </h3>
 
@@ -55,13 +55,13 @@ function Services() {
           </Link>
         </div>
 
-        <div className="!flex  !max-w-[320px]   mx-4 flex-col !justify-center items-center p-8 bg-gradient-to-r from-[#211E2E] via-[#433D60]  to-[#211E2E] rounded-[40px] ">
+        <div className="text-white !flex  !max-w-[320px]   mx-4 flex-col !justify-center items-center p-8 bg-color rounded-[40px] ">
           <Image
             alt=""
             src={EducationImage}
             className="rounded-full border-[12px] border-[rgba(14,14,14,0.32)] drop-shadow(0 4px 4px rgb(192, 183, 232, 0.01));"
           />
-          <h3 className="pb-3 my-4 text-2xl font-bold uppercase border-b-2 border-slate-400">
+          <h3 className="pb-3 my-4 text-2xl font-bold uppercase border-b-[1px] border-[#C0B7E8]">
             education
           </h3>
 
@@ -77,13 +77,13 @@ function Services() {
           </Link>
         </div>
 
-        <div className="!flex !max-w-[320px]  mx-4 flex-col !justify-center items-center p-8 bg-gradient-to-r from-[#211E2E] via-[#433D60]  to-[#211E2E] rounded-[40px] ">
+        <div className="!flex text-white !max-w-[320px]  mx-4 flex-col !justify-center items-center p-8 bg-color rounded-[40px] ">
           <Image
             alt=""
             src={SelfCareImage}
             className="rounded-full border-[12px] border-[rgba(14,14,14,0.32)] drop-shadow(0 4px 4px rgb(192, 183, 232, 0.01));"
           />
-          <h3 className="pb-3 my-4 text-2xl font-bold uppercase border-b-2 border-slate-400">
+          <h3 className="pb-3 my-4 text-2xl font-bold uppercase border-b-[1px] border-[#C0B7E8]">
             self-care
           </h3>
 
@@ -99,13 +99,13 @@ function Services() {
           </Link>
         </div>
 
-        <div className="!flex  !max-w-[320px]   mx-4 flex-col !justify-center items-center p-8 bg-gradient-to-r from-[#211E2E] via-[#433D60]  to-[#211E2E] rounded-[40px] ">
+        <div className="!flex text-white !max-w-[320px]   mx-4 flex-col !justify-center items-center p-8 bg-color rounded-[40px] ">
           <Image
             alt=""
             src={OutdoorImage}
             className="rounded-full border-[12px] border-[rgba(14,14,14,0.32)] drop-shadow(0 4px 4px rgb(192, 183, 232, 0.01));"
           />
-          <h3 className="pb-3 my-4 text-2xl font-bold uppercase border-b-2 border-slate-400">
+          <h3 className="pb-3 my-4 text-2xl font-bold uppercase border-b-[1px] border-[#C0B7E8]">
             outdoor
           </h3>
 
@@ -120,13 +120,13 @@ function Services() {
             try it now{" "}
           </Link>
         </div>
-        <div className="!flex !max-w-[320px]  mx-4 flex-col !justify-center !items-center p-8 bg-gradient-to-r from-[#211E2E] via-[#433D60]  to-[#211E2E] rounded-[40px] ">
+        <div className="!flex text-white !max-w-[320px]  mx-4 flex-col !justify-center !items-center p-8 bg-color rounded-[40px] ">
           <Image
             alt=""
             src={SimulationImage}
             className="rounded-full border-[12px] border-[rgba(14,14,14,0.32)] drop-shadow(0 4px 4px rgb(192, 183, 232, 0.01));"
           />
-          <h3 className="pb-3 my-4 text-2xl font-bold uppercase border-b-2 border-slate-400">
+          <h3 className="pb-3 my-4 text-2xl font-bold uppercase border-b-[1px] border-[#C0B7E8]">
             simulation
           </h3>
 
@@ -142,13 +142,13 @@ function Services() {
           </Link>
         </div>
 
-        <div className="!flex  !max-w-[320px]   mx-4 flex-col !justify-center items-center p-8 bg-gradient-to-r from-[#211E2E] via-[#433D60]  to-[#211E2E] rounded-[40px] ">
+        <div className="!flex text-white !max-w-[320px]   mx-4 flex-col !justify-center items-center p-8 bg-color rounded-[40px] ">
           <Image
             alt=""
             src={EducationImage}
             className="rounded-full border-[12px] border-[rgba(14,14,14,0.32)] drop-shadow(0 4px 4px rgb(192, 183, 232, 0.01));"
           />
-          <h3 className="pb-3 my-4 text-2xl font-bold uppercase border-b-2 border-slate-400">
+          <h3 className="pb-3 my-4 text-2xl font-bold uppercase border-b-[1px] border-[#C0B7E8]">
             education
           </h3>
 
@@ -164,13 +164,13 @@ function Services() {
           </Link>
         </div>
 
-        <div className="!flex !max-w-[320px]  mx-4 flex-col !justify-center items-center p-8 bg-gradient-to-r from-[#211E2E] via-[#433D60]  to-[#211E2E] rounded-[40px] ">
+        <div className="!flex text-white !max-w-[320px]  mx-4 flex-col !justify-center items-center p-8 bg-color rounded-[40px] ">
           <Image
             alt=""
             src={SelfCareImage}
             className="rounded-full border-[12px] border-[rgba(14,14,14,0.32)] drop-shadow(0 4px 4px rgb(192, 183, 232, 0.01));"
           />
-          <h3 className="pb-3 my-4 text-2xl font-bold uppercase border-b-2 border-slate-400">
+          <h3 className="pb-3 my-4 text-2xl font-bold uppercase border-b-[1px] border-[#C0B7E8]">
             self-care
           </h3>
 
@@ -186,13 +186,13 @@ function Services() {
           </Link>
         </div>
 
-        <div className="!flex  !max-w-[320px]   mx-4 flex-col !justify-center items-center p-8 bg-gradient-to-r from-[#211E2E] via-[#433D60]  to-[#211E2E] rounded-[40px] ">
+        <div className="!flex text-white !max-w-[320px]   mx-4 flex-col !justify-center items-center p-8 bg-color rounded-[40px] ">
           <Image
             alt=""
             src={OutdoorImage}
             className="rounded-full border-[12px] border-[rgba(14,14,14,0.32)] drop-shadow(0 4px 4px rgb(192, 183, 232, 0.01));"
           />
-          <h3 className="pb-3 my-4 text-2xl font-bold uppercase border-b-2 border-slate-400">
+          <h3 className="pb-3 my-4 text-2xl font-bold uppercase border-b-[1px] border-[#C0B7E8]">
             outdoor
           </h3>
 

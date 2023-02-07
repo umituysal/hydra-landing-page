@@ -6,7 +6,7 @@ import Navbar from "./Navbar";
 import MenuIcon from "../public/assets/hamburger.svg";
 function Header() {
   return (
-    <header className="flex items-center justify-between px-10 py-5 space-x-2 font-bold">
+    <header className="container flex items-center justify-between py-10 mx-auto space-x-2 font-bold">
       <div className="flex flex-row items-center justify-center space-x-2">
         <Link className="flex flex-row space-x-4" title="logo" href="/">
           <Image
