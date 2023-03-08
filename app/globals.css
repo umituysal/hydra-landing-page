@@ -1,11 +1,35 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url('https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css');
-@import url('https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css');
 
 body {
     background-color: #302C42;
+}
+
+
+.slick-slide {
+    text-align: center;
+}
+
+.slick-disabled {
+    cursor: not-allowed;
+}
+
+.navigation-item {
+    display: none;
+}
+
+.navigation-item .slick-track {
+    min-width: 100%;
+    transform: translate3d(0, 0, 0) !important;
+}
+
+@media screen and (min-width: 796px) {
+    .navigation-item {
+        display: block;
+    }
 }
 
 .slick-slide {
