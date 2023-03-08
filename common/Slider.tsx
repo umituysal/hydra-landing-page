@@ -1,8 +1,13 @@
 "use client";
 import React from "react";
 import Slick from "react-slick";
+
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
+
 import { ChevronRightIcon } from "@heroicons/react/24/solid";
 import { ChevronLeftIcon } from "@heroicons/react/24/solid";
+
 function NextBtn({ onClick }: any) {
   return (
     <button
@@ -50,9 +55,9 @@ function Slider({ children }: { children: React.ReactNode }) {
     autoplaySpeed: 3500,
     cssEase: "linear",
     arrows: true,
-     outerHeight: 500,
-     centerMode: true,
-     variableWidth: true,
+    outerHeight: 500,
+    centerMode: true,
+    variableWidth: true,
     nextArrow: <NextBtn />,
     prevArrow: <PrevBtn />,
     responsive: [
