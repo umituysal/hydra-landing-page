@@ -11,7 +11,10 @@ module.exports = {
         'image' : "url('../public/assets/techBgImage.jpeg')",
         'downArrow': "url('../public/assets/arrow-down.svg')",
         'wave':"url('../public/assets/wave.svg')"
-      }
+      },
+      fontFamily:{
+        montserrat:["var(--font-montserrat)"],
+      },
     },
   },
   plugins: [],

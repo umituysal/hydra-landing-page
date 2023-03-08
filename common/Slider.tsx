@@ -50,7 +50,7 @@ function Slider({ children }: { children: React.ReactNode }) {
     autoplaySpeed: 3500,
     cssEase: "linear",
     arrows: true,
-    outerHeight: 500,
+    // outerHeight: 500,
     centerMode: true,
     variableWidth: true,
     nextArrow: <NextBtn />,
